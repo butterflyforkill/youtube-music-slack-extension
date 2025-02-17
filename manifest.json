@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Music Slack Status",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "storage" 
+  ],
+  "host_permissions": [
+    "https://music.youtube.com/*",
+    "https://slack.com/api/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [{
+    "matches": ["https://music.youtube.com/*"],
+    "js": ["content.js"]
+  }]
+}

@@ -1,3 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background Circle -->
+  <circle cx="64" cy="64" r="60" fill="#4A154B"/>
+  
+  <!-- Slack-inspired hash pattern -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <rect x="35" y="45" width="25" height="8" rx="4"/>
+    <rect x="68" y="45" width="25" height="8" rx="4"/>
+    <rect x="35" y="75" width="25" height="8" rx="4"/>
+    <rect x="68" y="75" width="25" height="8" rx="4"/>
+  </g>
+  
+  <!-- Music Note -->
+  <path d="M60 30v35.5c-1.5-0.8-3.2-1.3-5-1.3-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10V40h10" 
+        fill="none" 
+        stroke="#FFFFFF" 
+        stroke-width="6" 
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
+
+![extension-logo](https://github.com/user-attachments/assets/09428357-9924-467d-bafb-0a5c7a76407c)
+
 # YouTube Music Slack Status Extension
 
 A Chrome extension that automatically updates your Slack status with the currently playing song from YouTube Music.
@@ -8,6 +31,9 @@ A Chrome extension that automatically updates your Slack status with the current
 - 🎧 Custom headphones emoji for music status
 - ✂️ Automatic truncation of long song titles
 - 🔒 Secure token storage using Chrome's storage API
+
+## Latest release
+
 
 ## Installation
 

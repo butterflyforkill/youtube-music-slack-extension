@@ -1,7 +1,12 @@
 {
   "manifest_version": 3,
   "name": "YouTube Music Slack Status",
-  "version": "2.0",
+  "version": "3.0",
+  "icons": {
+    "16": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  },
   "permissions": [
     "tabs",
     "scripting",

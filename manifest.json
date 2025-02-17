@@ -5,7 +5,7 @@
   "permissions": [
     "tabs",
     "scripting",
-    "storage" 
+    "storage"
   ],
   "host_permissions": [
     "https://music.youtube.com/*",
@@ -17,5 +17,6 @@
   "content_scripts": [{
     "matches": ["https://music.youtube.com/*"],
     "js": ["content.js"]
-  }]
+  }],
+  "options_page": "options.html" 
 }

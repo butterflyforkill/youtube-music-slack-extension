@@ -1,9 +1,21 @@
-const SLACK_TOKEN = 'SLACK_TOKEN';
-const MAX_STATUS_LENGTH = 100; // Maximum length for Slack status text
+const MAX_STATUS_LENGTH = 100;
+
+async function getSlackToken() {
+    return new Promise((resolve) => {
+        chrome.storage.sync.get('slackToken', (data) => {
+            resolve(data.slackToken);
+        });
+    });
+}
 
 async function updateSlackStatus(songInfo) {
     try {
-        // Create status text and truncate if needed
+        const token = await getSlackToken();
+        if (!token) {
+            console.error('Slack token not found. Please configure it in extension options.');
+            return;
+        }
+
         let statusText = `▶️ ${songInfo.title} - ${songInfo.artist}`;
         if (statusText.length > MAX_STATUS_LENGTH) {
             statusText = statusText.substring(0, MAX_STATUS_LENGTH - 3) + '...';
@@ -12,7 +24,7 @@ async function updateSlackStatus(songInfo) {
         const response = await fetch('https://slack.com/api/users.profile.set', {
             method: 'POST',
             headers: {
-                'Authorization': `Bearer ${SLACK_TOKEN}`,
+                'Authorization': `Bearer ${token}`,
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
@@ -40,5 +52,5 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.type === 'SONG_CHANGED') {
         updateSlackStatus(message.song);
     }
-    return true; // Keep the message channel open for async response
+    return true;
 });

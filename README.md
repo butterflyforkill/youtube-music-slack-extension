@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
   <!-- Background Circle -->
   <circle cx="64" cy="64" r="60" fill="#4A154B"/>
   

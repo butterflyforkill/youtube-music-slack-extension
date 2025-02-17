@@ -33,7 +33,7 @@ A Chrome extension that automatically updates your Slack status with the current
 - 🔒 Secure token storage using Chrome's storage API
 
 ## Latest release
-
+https://github.com/butterflyforkill/youtube-music-slack-extension/releases/tag/v2.0.0
 
 ## Installation
 

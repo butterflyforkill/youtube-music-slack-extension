@@ -44,6 +44,8 @@
   </g>
 </svg>
 
+![kpop-extension-logo](https://github.com/user-attachments/assets/c632f457-09ca-41ac-9bf3-f2973e958147)
+
 # YouTube Music Slack Status Extension
 
 A Chrome extension that automatically updates your Slack status with the currently playing song from YouTube Music.

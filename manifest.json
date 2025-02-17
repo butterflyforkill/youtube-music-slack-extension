@@ -3,9 +3,9 @@
   "name": "YouTube Music Slack Status",
   "version": "2.0.2",
   "icons": {
-    "16": "icon.svg",
-    "48": "icon.svg",
-    "128": "icon.svg"
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "permissions": [
     "tabs",

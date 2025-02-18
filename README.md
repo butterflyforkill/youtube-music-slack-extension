@@ -61,7 +61,7 @@ A Chrome extension that automatically updates your Slack status with the current
 https://github.com/butterflyforkill/youtube-music-slack-extension/releases/tag/v2.0.2
 
 ## Support me 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#c670cf', 'D1D013F05');kofiwidget2.draw();</script> 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D013F05)
 
 ## Installation
 

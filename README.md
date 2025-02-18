@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
   <!-- Gradient definitions -->
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -45,38 +45,6 @@
 </svg>
 
 ![kpop-extension-logo](https://github.com/user-attachments/assets/c632f457-09ca-41ac-9bf3-f2973e958147)
-![kpop-icon-48](https://github.com/user-attachments/assets/ba04576a-d1e3-421d-ac6f-1910835a2c80)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-  <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FF69B4"/>
-      <stop offset="100%" style="stop-color:#9400D3"/>
-    </linearGradient>
-    <linearGradient id="noteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00FFFF"/>
-      <stop offset="100%" style="stop-color:#FF1493"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Background -->
-  <circle cx="24" cy="24" r="22" fill="url(#bgGradient)"/>
-  
-  <!-- Slack hash simplified -->
-  <g fill="#FFFFFF" opacity="0.9">
-    <rect x="13" y="17" width="10" height="2.5" rx="1"/>
-    <rect x="25" y="17" width="10" height="2.5" rx="1"/>
-    <rect x="13" y="28" width="10" height="2.5" rx="1"/>
-    <rect x="25" y="28" width="10" height="2.5" rx="1"/>
-  </g>
-
-  <!-- Music note simplified -->
-  <path d="M22 12v13c-0.5-0.3-1.2-0.5-2-0.5-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4V16h4" 
-        fill="none" 
-        stroke="url(#noteGradient)" 
-        stroke-width="2.5" 
-        stroke-linecap="round"
-        stroke-linejoin="round"/>
-</svg>
-
 
 
 

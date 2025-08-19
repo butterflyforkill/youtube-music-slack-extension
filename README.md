@@ -69,7 +69,7 @@ https://github.com/butterflyforkill/youtube-music-slack-extension/releases/tag/v
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/youtube-music-slack-extension.git
+    git clone https://github.com/butterflyforkill/youtube-music-slack-extension.git
     ```
 2. Open Chrome and navigate to chrome://extensions/
 3. Enable "Developer mode" in the top right corner
